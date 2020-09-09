@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Product from './Product';
+import Subtotal from './Subtotal';
 
 
 function Home() {
@@ -62,4 +63,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;
