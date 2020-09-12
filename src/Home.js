@@ -7,7 +7,7 @@ import Subtotal from './Subtotal';
 function Home() {
     return (
         <div className='home'>
-            <img className='home_image' src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt="" />
+            <img className='home_image' src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG19/Furniture/WFH/Header/WFH_1500x350.gif" alt="" />
 
         <div className='home_row'>
             <Product 
@@ -31,6 +31,13 @@ function Home() {
                 image= 'https://www.climaxcomputer.com/wp-content/uploads/2019/11/mbp16touch-space-gallery1-201911_1_1.png'
                 rating= {5}
             />
+            <Product 
+                id='hf4ytw878'
+                title='Amazon Kindle Paperwhite (2018) 32GB WiFi IPX 8 - Black' 
+                price={120.50}
+                image='https://cdn.tobydeals.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/m/amazon-kindle-paperwhite-2018-8gb-wifi-ipx-8-black.jpg'
+                rating= {4}
+            />
         </div>
 
         <div className='home_row'>
@@ -52,12 +59,20 @@ function Home() {
                 rating= {3} 
             />
             <Product 
-                id='hf4ytw878'
-                title='Amazon Kindle Paperwhite (2018) 32GB WiFi IPX 8 - Black' 
-                price={120.50}
-                image='https://cdn.tobydeals.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/m/amazon-kindle-paperwhite-2018-8gb-wifi-ipx-8-black.jpg'
+                id='mfkhf8784f'
+                title='Samsung Gear S3 Frontier Smartwatch (Bluetooth), SM-R760NDAAXAR'
+                price={429.99}
+                image='https://images-na.ssl-images-amazon.com/images/I/61GcJ2DDvIL._AC_SL1000_.jpg'
                 rating= {4}
             />
+            <Product 
+                id='vnugy8478gt'
+                title='AOC CU34G2X 34" Curved Frameless Immersive Gaming Monitor, UltraWide QHD 3440x1440, VA Panel, 1ms 144Hz Freesync, Height Adjustable, 3-Yr Zero Dead Pixels' 
+                price={599.99}
+                image='https://images-na.ssl-images-amazon.com/images/I/61-ke7Qp%2BxL._AC_SL1000_.jpg'
+                rating= {4}
+            />
+            
         </div>
         </div>
     )
