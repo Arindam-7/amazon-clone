@@ -19,7 +19,10 @@ function Header() {
     return (
         <div className="header">
             <Link to='/'>
-                <img className='header_logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' />
+                <div className='logo_section'>
+                    <img className='header_logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' />
+                    <a href='https://github.com/Arindam-7' className='logo_text'>by Arindam</a>
+                </div>
             </Link>
 
             <div className="header_search">

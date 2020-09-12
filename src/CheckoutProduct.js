@@ -15,28 +15,28 @@ function CheckoutProduct(props) {
     }
 
     return (
-        <div className='checkoutProduct'>
-            <img 
-                className='checkoutProductImage' 
-                src={props.image} 
-            />
+            <div className='checkoutProduct'>
+                <img 
+                    className='checkoutProductImage' 
+                    src={props.image} 
+                />
 
-            <div className='checkoutProduct_info'>
-                <p className='checkoutProductTitle'>{props.title}</p>
-                <p className='checkoutProductPrice'>
-                    <small>$</small>
-                    <strong>{props.price}</strong>
-                </p>
-                <div className='checkoutProductRating'>
-                    {Array(props.rating)
-                        .fill()
-                        .map((_, i) => (
-                            <p>⭐</p>
-                        ))}
+                <div className='checkoutProduct_info'>
+                    <p className='checkoutProductTitle'>{props.title}</p>
+                    <p className='checkoutProductPrice'>
+                        <small>$</small>
+                        <strong>{props.price}</strong>
+                    </p>
+                    <div className='checkoutProductRating'>
+                        {Array(props.rating)
+                            .fill()
+                            .map((_, i) => (
+                                <p>⭐</p>
+                            ))}
+                    </div>
+                    <button onClick={removeFromBasket}>Remove from Basket</button>
                 </div>
-                <button onClick={removeFromBasket}>Remove from Basket</button>
             </div>
-        </div>
     )
 }
 

@@ -12,7 +12,23 @@
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: 18px;
+    margin-top: 8px;
+}
+
+.logo_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_text {
+    text-decoration: underline;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 2px;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .header_searchInput {
