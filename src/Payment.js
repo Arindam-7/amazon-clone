@@ -41,7 +41,12 @@ function Payment() {
                 </div>
 
                 <div className='payment_section'>
-
+                    <div className='payment_title'>
+                        <h3>Payment Method</h3>
+                    </div>
+                    <div className='payment_details'>
+                        
+                    </div>
                 </div>
             </div>
         </div>
