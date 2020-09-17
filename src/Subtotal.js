@@ -26,7 +26,7 @@ function Subtotal() {
                     </>
                 )}
                 decimalScale={2}
-                value={getBasketTotal(basket)} //homework
+                value={getBasketTotal(basket)} 
                 displayType={'text'}
                 thousandSeperator={true}
                 prefix={'$'}
